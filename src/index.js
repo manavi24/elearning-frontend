@@ -4,7 +4,7 @@ import App from './App';
 import { UserContextProvider } from './context/UserContext';
 import { CourseContextProvider } from './context/CourseContext';
 
-export const server = "http://localhost:5000";
+export const server = "https://elearning-server-1-d04a.onrender.com/";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
